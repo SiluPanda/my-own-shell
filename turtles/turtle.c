@@ -44,7 +44,7 @@ void sig_int_handler(int signum){
     ;
 }
 
-//This function executes the commands with buildin execvp 
+//This function executes the commands with builtin execvp 
 void exec_tokens(char **tokens){
     pid_t pid = fork();
     if(pid != 0){
@@ -80,7 +80,7 @@ void valid_tokens(char **tokens){
                 return;
             }
             else if(tokens[2] != NULL) {
-                printf("cd does not mora than one arguments \n");
+                printf("cd does not take more than one arguments \n");
                 return;
             }
 
