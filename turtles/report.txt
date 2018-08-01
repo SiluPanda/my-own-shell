@@ -1,0 +1,8 @@
+I used execvp function to run and simple validator for giving errors.
+Everytime a new command is given, it gets executed in a new child process
+
+The valid_token function validates the commands and gives the expected result.
+
+The signal handler handles the SIGINT signals (terminate a process).
+
+The tokenizer fuction takes sentence (command in our case) and returns an array of strings (tokens).

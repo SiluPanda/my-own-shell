@@ -1,0 +1,16 @@
+Turtle>echo hello
+hello
+Turtle>ls
+a.out  p1a.c  p1b.c  p1c.c  p1c.txt  report.txt  turtle.c
+Turtle>echo hello > hello.txt
+hello > hello.txt
+Turtle>ls
+a.out  p1a.c  p1b.c  p1c.c  p1c.txt  report.txt  turtle.c
+Turtle>mkdir hello\
+Turtle>la
+Command not found Turtle>ls
+a.out  hello\  p1a.c  p1b.c  p1c.c  p1c.txt  report.txt  turtle.c
+Turtle>cd hello
+Directory not found
+Turtle>cd hello\
+Turtle>
